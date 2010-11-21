@@ -1,46 +1,49 @@
-<p>For release announcements, subscribe to the <a href="http://infinitest.github.com/rss.xml">Infinitest News Feed</a>.</p>
-<h2>Filtering Tests</h2>
-<p>
-If you have tests in your project that run too slowly to run all the time, you can tell Infinitest not to run them. Create a file named <b>infinitest.filters</b> that contains regular expressions (one per line) that match the test classes you want to filter. Put this file in the root of your project (a.k.a. the working directory), and Infinitest will filter those tests out. Here are some examples:</p>
-<p><code><br />
-Tests that end in ITest: .*ITest<br />
-Inner Classes: .*\$.*<br />
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Infinitest User Guide</title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	</head>
+	<body>
+		<p>For release announcements, subscribe to the <a href="http://infinitest.github.com/rss.xml">Infinitest News Feed</a>.</p>
+		
+		<h2>Filtering Tests</h2>
+		<p>If you have tests in your project that run too slowly to run all the time, you can tell Infinitest not to run them. Create a file named <b>infinitest.filters</b> that contains regular expressions (one per line) that match the test classes you want to filter. Put this file in the root of your project (a.k.a. the working directory), and Infinitest will filter those tests out. Here are some examples:</p>
+		<pre>
+Tests that end in ITest: .*ITest
+Inner Classes: .*\$.*
 
-Tests in a certain package: com\.mycompany\.mypackage\..*<br />
-All tests in this project: .*<br />
-</code></p>
-<p class="userguide">
-You can check this file in source control to allow all developers to filter the same tests, or generate it as part of your build process.
-</p>
-<h2>Setting JVM Options</h2>
-<p>If you need to set custom JVM options (such as memory settings, system properties, java language assertions, etc&#8230;) when running tests, you can configure them by creating a simple text file in the working directory of your project named <b>infinitest.args</b> that contains one VM argument per line to be included whenever Infinitest runs tests. Just as with the filter file, this can be checked into source control, or generated as part of an automated build.</p>
-<h2>Pro Tips</h2>
+Tests in a certain package: com\.mycompany\.mypackage\..*
+All tests in this project: .*
+</pre>
+	<p class="userguide">You can check this file in source control to allow all developers to filter the same tests, or generate it as part of your build process.</p>
 
-<ul>
-<li>You can run all the tests in a project (and generally &#8216;reset&#8217; things) in Infinitest-Eclipse by cleaning the project.</li>
-<li>You can view the stack trace for a failure from the quick fix menu</li>
-</ul>
-<h2>Common Problems</h2>
-<h3><i>Infinitest isn&#8217;t running my tests</i></h3>
-<p>If you&#8217;re running Eclipse, ensure that:</p>
+	<h2>Setting JVM Options</h2>
+	<p>If you need to set custom JVM options (such as memory settings, system properties, java language assertions, etc...) when running tests, you can configure them by creating a simple text file in the working directory of your project named <b>infinitest.args</b> that contains one VM argument per line to be included whenever Infinitest runs tests. Just as with the filter file, this can be checked into source control, or generated as part of an automated build.</p>
+	
+	<h2>Pro Tips</h2>
+	<ul>
+		<li>You can run all the tests in a project (and generally 'reset' things) in Infinitest-Eclipse by cleaning the project.</li>
+		<li>You can view the stack trace for a failure from the quick fix menu</li>
+	</ul>
+	
+	<h2>Common Problems</h2>
+	<h3><i>Infinitest isn't running my tests</i></h3>
+	<p>If you're running Eclipse, ensure that:</p>
+	<ul>
+		<li>You've resolved any compiler or other workspace errors</li>
+		<li>The "Continuously Test" option in the Infinitest preferences (under Window->Preferences) is checked</li>
+		<li>"Build Automatically" under the "Project" menu is checked</li>
+		<li>The test is not being filtered by an entry in the infinitest.filters file in the root directory of the project</li>
+		<li>If you're using a custom builder (like AspectJ) make sure you have the appropriate plugins installed</li>
+	</ul>
+	<p>If you're using IntelliJ:</p>
+	<ul>
+		<li>You have to compile the file after you change it. IntelliJ does not compile classes automatically like Eclipse</li>
+		<li>Check the infinitest.filters file</li>
+	</ul>
 
-<ul>
-<li>You&#8217;ve resolved any compiler or other workspace errors</li>
-<li>The &#8220;Continuously Test&#8221; option in the Infinitest preferences (under Window->Preferences) is checked</li>
-<li>&#8220;Build Automatically&#8221; under the &#8220;Project&#8221; menu is checked</li>
-<li>The test is not being filtered by an entry in the infinitest.filters file in the root directory of the project</li>
-
-<li>If you&#8217;re using a custom builder (like AspectJ) make sure you have the appropriate plugins installed</li>
-</ul>
-<p>If you&#8217;re using IntelliJ:</p>
-<ul>
-<li>You have to compile the file after you change it. IntelliJ does not compile classes automatically like Eclipse</li>
-<li>Check the infinitest.filters file</li>
-</ul>
-<h3><i>I can&#8217;t access the update site!</i></h3>
-<p>
-
-If you are behind a firewall, you may have limited access to the Internet. This can cause problems accessing the update site. If you use a web proxy to connect to the Internet, make sure that you have correctly entered your proxy settings into Eclipse under Preferences->General->Network Connections.
-</p>
-</div>
-	</div>
+	<h3><i>I can't access the update site!</i></h3>
+	<p>If you are behind a firewall, you may have limited access to the Internet. This can cause problems accessing the update site. If you use a web proxy to connect to the Internet, make sure that you have correctly entered your proxy settings into Eclipse under Preferences->General->Network Connections.</p>
+</body>
