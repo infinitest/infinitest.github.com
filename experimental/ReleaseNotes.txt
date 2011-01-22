@@ -45,3 +45,5 @@ Mer 17 nov 2010 07:53:20 CET    5.1.82    Merge back 5.1.79 changes
 Ven 19 nov 2010 09:43:27 CET    5.1.83    No more License, JUnit 4.8.2 support
 
 Tue Jan 11 09:52:00 CET 2011    5.1.84    FIX Should restore saved preferences when the plugin is loaded
+
+Sam 22 jan 2011 18:46:21 CET    5.1.85    Very experimental TestNG support
