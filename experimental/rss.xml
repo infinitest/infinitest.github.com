@@ -9,6 +9,12 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.86 released - FIX annoying console behavior in Eclipse</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Mon, 31 Jan 2011 11:58:59 +0100</pubDate>
+      <dc:date>2011-01-31T11:58:59.220876+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.85 released - Very experimental TestNG support</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Sat, 22 Jan 2011 18:46:22 +0100</pubDate>
