@@ -49,3 +49,6 @@ Tue Jan 11 09:52:00 CET 2011    5.1.84    FIX Should restore saved preferences w
 Sam 22 jan 2011 18:46:21 CET    5.1.85    Very experimental TestNG support
 
 Mon Jan 31 11:58:58 CET 2011    5.1.86    FIX annoying console behavior in Eclipse
+
+
+Thu Feb  3 17:47:30 CET 2011    5.1.87    Support JUnit4.9b2

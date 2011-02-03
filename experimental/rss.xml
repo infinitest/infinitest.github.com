@@ -9,28 +9,34 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.87 released - Support JUnit4.9b2</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Thu, 03 Feb 2011 17:47:31 +0100</pubDate>
+      <dc:date>2011-02-03T17:47:31.224027+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.86 released - FIX annoying console behavior in Eclipse</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Mon, 31 Jan 2011 11:58:59 +0100</pubDate>
-      <dc:date>2011-01-31T11:58:59.220876+01:00</dc:date>
+      <dc:date>2011-01-31T11:58:59+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.85 released - Very experimental TestNG support</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Sat, 22 Jan 2011 18:46:22 +0100</pubDate>
-      <dc:date>2011-01-22T18:46:22.371806+01:00</dc:date>
+      <dc:date>2011-01-22T18:46:22+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.84 released - FIX Should restore saved preferences when the plugin is loaded</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Tue, 11 Jan 2011 09:52:01 +0100</pubDate>
-      <dc:date>2011-01-11T09:52:01.0708+01:00</dc:date>
+      <dc:date>2011-01-11T09:52:01+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.83 released - No more License, JUnit 4.8.2 support</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Fri, 19 Nov 2010 09:43:27 +0100</pubDate>
-      <dc:date>2010-11-19T09:43:27.594254+01:00</dc:date>
+      <dc:date>2010-11-19T09:43:27+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.82 released - Merge back 5.1.79 changes</title>
