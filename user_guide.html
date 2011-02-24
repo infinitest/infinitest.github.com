@@ -14,11 +14,17 @@
 		<h2>Filtering Tests</h2>
 		<p>If you have tests in your project that run too slowly to run all the time, you can tell Infinitest not to run them. Create a file named <b>infinitest.filters</b> that contains regular expressions (one per line) that match the test classes you want to filter. Put this file in the root of your project (a.k.a. the working directory), and Infinitest will filter those tests out. Here are some examples:</p>
 		<pre>
-Tests that end in ITest: .*ITest
-Inner Classes: .*\$.*
+<em>Tests that end in ITest:</em>
+.*ITest
 
-Tests in a certain package: com\.mycompany\.mypackage\..*
-All tests in this project: .*
+<em>Inner Classes:</em>
+.*\$.*
+
+<em>Tests in a certain package:</em>
+com\.mycompany\.mypackage\..*
+
+<em>All tests in this project:</em>
+.*
 </pre>
 	<p class="userguide">You can check this file in source control to allow all developers to filter the same tests, or generate it as part of your build process.</p>
 
