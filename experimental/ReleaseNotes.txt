@@ -52,3 +52,5 @@ Mon Jan 31 11:58:58 CET 2011    5.1.86    FIX annoying console behavior in Eclip
 
 
 Thu Feb  3 17:47:30 CET 2011    5.1.87    Support JUnit4.9b2
+
+Thu Apr  7 16:45:35 CEST 2011    5.1.88    Fix IntelliJ plugin version
