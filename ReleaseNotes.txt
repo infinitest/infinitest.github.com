@@ -41,3 +41,6 @@ Ven 19 nov 2010 09:43:27 CET    5.1.83    No more License, JUnit 4.8.2 support
 Tue Jan 11 09:52:00 CET 2011    5.1.84    FIX Should restore saved preferences when the plugin is loaded
 
 Tue Apr  5 14:52:00 CET 2011    5.1.87    JUnit 4.9b2 support. Also, tested on IntelliJ IDEA X
+
+
+Sun Apr 17 17:37:08 CEST 2011    5.1.89    Rollback to JUnit 4.8.2
