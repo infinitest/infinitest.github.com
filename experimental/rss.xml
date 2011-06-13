@@ -9,6 +9,12 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.91 released - TestNG groups. Intellij bug fixing</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Mon, 13 Jun 2011 20:26:26 +0200</pubDate>
+      <dc:date>2011-06-13T20:26:26.285064+02:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.90 released - Fix QuickFix</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Tue, 26 Apr 2011 11:30:42 +0200</pubDate>

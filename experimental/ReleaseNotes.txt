@@ -45,3 +45,5 @@ Tue Apr  5 14:52:00 CET 2011    5.1.87    JUnit 4.9b2 support. Also, tested on I
 Sun Apr 17 17:37:08 CEST 2011    5.1.89    Rollback to JUnit 4.8.2
 
 Tue Apr 26 11:30:41 CEST 2011    5.1.90    Fix QuickFix
+
+Mon Jun 13 20:26:26 CEST 2011    5.1.91    TestNG groups. Intellij bug fixing
