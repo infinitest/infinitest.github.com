@@ -47,3 +47,5 @@ Sun Apr 17 17:37:08 CEST 2011    5.1.89    Rollback to JUnit 4.8.2
 Tue Apr 26 11:30:41 CEST 2011    5.1.90    Fix QuickFix
 
 Mon Jun 13 20:26:26 CEST 2011    5.1.91    TestNG groups. Intellij bug fixing
+
+Fri Jun 17 22:47:47 CEST 2011    5.1.92    IntelliJ bug fixing
