@@ -36,19 +36,16 @@ Thu Mar 18 22:36:38 CDT 2010    5.1.77    Fixed issue with plugin manifest
 
 Thu Mar 18 22:51:06 CDT 2010    5.1.78    Fixed issue with missing libraries in the plugin
 
-Fri Nov 12 18:03:28 CET 2010    5.1.80    First GPL version
-
-Mon Nov 15 15:08:15 CET 2010    5.1.81    Built with Google Guava and Latest JUnit 4.8.2
-
-Mer 17 nov 2010 07:53:20 CET    5.1.82    Merge back 5.1.79 changes
-
 Ven 19 nov 2010 09:43:27 CET    5.1.83    No more License, JUnit 4.8.2 support
 
 Tue Jan 11 09:52:00 CET 2011    5.1.84    FIX Should restore saved preferences when the plugin is loaded
 
-Sam 22 jan 2011 18:46:21 CET    5.1.85    Very experimental TestNG support
+Tue Apr  5 14:52:00 CET 2011    5.1.87    JUnit 4.9b2 support. Also, tested on IntelliJ IDEA X
 
-Mon Jan 31 11:58:58 CET 2011    5.1.86    FIX annoying console behavior in Eclipse
+Sun Apr 17 17:37:08 CEST 2011    5.1.89    Rollback to JUnit 4.8.2
 
+Tue Apr 26 11:30:41 CEST 2011    5.1.90    Fix QuickFix
 
-Thu Feb  3 17:47:30 CET 2011    5.1.87    Support JUnit4.9b2
+Mon Jun 13 20:26:26 CEST 2011    5.1.91    TestNG groups. Intellij bug fixing
+
+Fri Jun 17 22:47:47 CEST 2011    5.1.92    IntelliJ bug fixing

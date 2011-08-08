@@ -17,6 +17,11 @@ body {
   margin-top: 15px;
 }
 
+.strapline {
+ font-size: 1.1em;
+ font-style: italic;
+}
+
 .footer {
   clear: both;
   padding-top: 5px;
