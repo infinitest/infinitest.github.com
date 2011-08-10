@@ -44,6 +44,14 @@ com\.mycompany\.mypackage\..*
 ## groups=shouldbetested
 </pre>
 <p>This makes infinitest only execute those TestNG-test that have the annotation <em>groups = { "shouldbetested" }</em></p>
+
+<h3>Using TestNG listeners</h3>
+<p>If you're using TestNG you can use <a href="http://testng.org/doc/documentation-main.html#testng-listeners">TestNG listeners</a> to add certain behaviours (e.g. configuring a special test-output or a special-needs library like jmockit). Just like TestNG groups you can add them to <b>infinitest.filters</b>: </p>
+<pre>
+## listeners=com.myproject.MyTestNGListener1, com.myproject.MyTestNGListener2
+</pre>
+<p>This causes infinitest to call the listeners when a TestNG test is executed.</p>
+
 	<p class="userguide">You can check this file in source control to allow all developers to filter the same tests, or generate it as part of your build process.</p>
 
 	<h2>Setting JVM Options</h2>
