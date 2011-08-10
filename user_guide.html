@@ -12,7 +12,10 @@
 		<p>You have to install the plugin in Eclipse using an update site. <a href="http://infinitest.github.com/index.html">Read more</a></p>
 		
 		<h2>Filtering Tests</h2>
-		<p>If you have tests in your project that run too slowly to run all the time, you can tell Infinitest not to run them. Create a file named <b>infinitest.filters</b> that contains regular expressions (one per line) that match the test classes you want to filter. Put this file in the root of your project (a.k.a. the working directory), and Infinitest will filter those tests out. Here are some examples:</p>
+		<p>If you have tests in your project that run too slowly to run all the time, you can tell Infinitest not to run them. Create a file named <b>infinitest.filters</b></p>
+		
+		<h3>Filtering with Regular Expressions</h3>
+		<p> The <b>infinitest.filters</b> contains regular expressions (one per line) that match the test classes you want to filter. Put this file in the root of your project (a.k.a. the working directory), and Infinitest will filter those tests out. Here are some examples:</p>
 		<pre>
 <em>Tests that end in ITest:</em>
 .*ITest
@@ -26,6 +29,29 @@ com\.mycompany\.mypackage\..*
 <em>All tests in this project:</em>
 .*
 </pre>
+
+<h3>Filtering with TestNG groups</h3>
+<p>If you're using TestNG you can also add filter options for <a href="http://testng.org/doc/documentation-main.html#test-groups">TestNG groups</a> to <b>infinitest.filters</b>. Please be careful to mark them with ## like in the following examples:</p>
+<pre>
+## TestNG Configuration
+# Tests with a group-annotation in excluded-groups are not executed:
+## excluded-groups=manual,slow
+</pre>
+<p>This excludes all TestNG-tests that have either the annotation <em>groups = { "slow" }</em> or <em>groups = { "manual" }</em> from execution.<p>
+<pre>
+## TestNG Configuration
+# Tests with a group-annotation in groups are the only ones being executed (overridden by excluded-groups):
+## groups=shouldbetested
+</pre>
+<p>This makes infinitest only execute those TestNG-test that have the annotation <em>groups = { "shouldbetested" }</em></p>
+
+<h3>Using TestNG listeners</h3>
+<p>If you're using TestNG you can use <a href="http://testng.org/doc/documentation-main.html#testng-listeners">TestNG listeners</a> to add certain behaviours (e.g. configuring a special test-output or a special-needs library like jmockit). Just like TestNG groups you can add them to <b>infinitest.filters</b>: </p>
+<pre>
+## listeners=com.myproject.MyTestNGListener1, com.myproject.MyTestNGListener2
+</pre>
+<p>This causes infinitest to call the listeners when a TestNG test is executed.</p>
+
 	<p class="userguide">You can check this file in source control to allow all developers to filter the same tests, or generate it as part of your build process.</p>
 
 	<h2>Setting JVM Options</h2>
