@@ -51,3 +51,5 @@ Mon Jun 13 20:26:26 CEST 2011    5.1.91    TestNG groups. Intellij bug fixing
 Fri Jun 17 22:47:47 CEST 2011    5.1.92    IntelliJ bug fixing
 
 Wed Aug 10 23:29:59 CEST 2011    5.1.93    fix the windows cmdline limitation due to very long classpath. adding listeners to existing testng-config
+
+Tue Dec 13 08:04:34 CET 2011    5.1.94    Fix for IntelliJ11

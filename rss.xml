@@ -9,10 +9,16 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.94 released - Fix for IntelliJ11</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Tue, 13 Dec 2011 08:04:34 +0100</pubDate>
+      <dc:date>2011-12-13T08:04:34.968918+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.93 released - fix the windows cmdline limitation due to very long classpath. adding listeners to existing testng-config</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Wed, 10 Aug 2011 23:29:59 +0200</pubDate>
-      <dc:date>2011-08-10T23:29:59.894514+02:00</dc:date>
+      <dc:date>2011-08-10T23:29:59+02:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.92 released - IntelliJ bug fixing</title>
