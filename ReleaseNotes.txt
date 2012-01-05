@@ -57,3 +57,5 @@ Tue Dec 13 08:04:34 CET 2011    5.1.94    Fix for IntelliJ11
 Wed Jan  4 22:29:22 CET 2012    5.1.95    Support Scala projects
 
 Thu Jan  5 11:24:06 CET 2012    5.1.97    Support of JUnit 4.10
+
+Sat Jan  7 17:41:52 CET 2012    5.1.98    FIX wrong IDE being used in IntelliJ and not failing on exception without stacktrace.
