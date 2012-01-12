@@ -9,10 +9,16 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.99 released - FIX NoClassDefFoundError for Guava's com.google.common.base.Strings</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Thu, 12 Jan 2012 01:01:06 +0100</pubDate>
+      <dc:date>2012-01-12T01:01:06.274608+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.98 released - FIX wrong IDE being used in IntelliJ and not failing on exception without stacktrace.</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Sat, 07 Jan 2012 17:41:52 +0100</pubDate>
-      <dc:date>2012-01-07T17:41:52.483587+01:00</dc:date>
+      <dc:date>2012-01-07T17:41:52+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.97 released - Support of JUnit 4.10</title>
