@@ -9,10 +9,16 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.102 released - Support @BeforeClass</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Sat, 28 Apr 2012 16:20:27 +0200</pubDate>
+      <dc:date>2012-04-28T16:20:27.792835+02:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.101 released - Fix bug with hamcrest</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Sat, 28 Jan 2012 13:31:23 +0100</pubDate>
-      <dc:date>2012-01-28T13:31:23.825286+01:00</dc:date>
+      <dc:date>2012-01-28T13:31:23+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.100 released - Bug fixing</title>

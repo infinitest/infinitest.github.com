@@ -65,3 +65,5 @@ Thu Jan 12 01:01:05 CET 2012    5.1.99    FIX NoClassDefFoundError for Guava's c
 Sat Jan 21 12:00:06 CET 2012    5.1.100    Bug fixing
 
 Sat Jan 28 13:31:23 CET 2012    5.1.101    Fix bug with hamcrest
+
+Sat Apr 28 16:20:27 CEST 2012    5.1.102    Support @BeforeClass
