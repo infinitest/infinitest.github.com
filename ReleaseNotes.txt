@@ -71,3 +71,5 @@ Sat Apr 28 16:20:27 CEST 2012    5.1.102    Support @BeforeClass
 Mon Apr 30 09:39:23 CEST 2012    5.1.103    Rollback Javassist
 
 Mon Apr 30 09:43:55 CEST 2012    5.1.103    Fix problem with Javassist
+
+Mon Apr 30 09:57:03 CEST 2012    5.1.103    Fix Javassist packaging
