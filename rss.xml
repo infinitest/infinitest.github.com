@@ -9,10 +9,16 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.103 released - Fix problem with Javassist</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Mon, 30 Apr 2012 09:43:56 +0200</pubDate>
+      <dc:date>2012-04-30T09:43:56.134057+02:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.103 released - Rollback Javassist</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Mon, 30 Apr 2012 09:39:24 +0200</pubDate>
-      <dc:date>2012-04-30T09:39:24.04511+02:00</dc:date>
+      <dc:date>2012-04-30T09:39:24+02:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.102 released - Support @BeforeClass</title>
