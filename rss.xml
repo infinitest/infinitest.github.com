@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Infinitest for Eclipse Releases</title>
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.106 released - Bug fixes. Support TestNG 6.8</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Thu, 13 Dec 2012 18:01:19 +0100</pubDate>
+      <dc:date>2012-12-13T18:01:19.376177+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.103 released - Fix Javassist packaging</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Mon, 30 Apr 2012 09:57:03 +0200</pubDate>
-      <dc:date>2012-04-30T09:57:03.411134+02:00</dc:date>
+      <dc:date>2012-04-30T09:57:03+02:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.103 released - Fix problem with Javassist</title>
