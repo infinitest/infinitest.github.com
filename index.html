@@ -34,13 +34,18 @@ title: Infinitest
       <p>
         Use this update site:
       </p>
-      <pre>http://infinitest.github.com</pre>
 
+      <div class="input-append">
+        <input type="text" value="http://infinitest.github.com">
+        <button id="update_site" class="btn" data-clipboard-text="http://infinitest.github.com">
+          <i id="copy_icon" class="icon-share"></i>
+        </button>
+      </div>
       <p>
-        Or drag &amp; drop this image
+        Or drag &amp; drop this image<br>
         <a href='http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1124'
            title='Drag and drop into a running Eclipse Indigo workspace to install Infinitest'>
-          <img src='http://marketplace.eclipse.org/misc/installbutton.png'/></a><br>
+          <img width="63" height="25" src='/assets/img/installbutton.png'/></a><br>
         to a running Eclipse.
       </p>
     </div>
@@ -58,4 +63,26 @@ title: Infinitest
     </div>
   </div>
 </div>
+<script src="/assets/js/ZeroClipboard.min.js" type="text/javascript"></script>
+<script>
+  var clip = new ZeroClipboard(document.getElementById("update_site"));
+
+  clip.on('mouseover', function () {
+    this.className = 'btn btn-success'
+    document.getElementById("copy_icon").className = 'icon-share icon-white';
+  });
+
+  clip.on('mouseout', function () {
+    this.className = 'btn'
+    document.getElementById("copy_icon").className = 'icon-share';
+  });
+
+  clip.on('mousedown', function () {
+    document.getElementById("copy_icon").className = 'icon-share';
+  });
+
+  clip.on('mouseup', function () {
+    document.getElementById("copy_icon").className = 'icon-share icon-white';
+  });
+</script>
 </body>
