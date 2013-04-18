@@ -75,3 +75,5 @@ Mon Apr 30 09:43:55 CEST 2012    5.1.103    Fix problem with Javassist
 Mon Apr 30 09:57:03 CEST 2012    5.1.103    Fix Javassist packaging
 
 Thu Dec 13 18:01:19 CET 2012    5.1.106    Bug fixes. Support TestNG 6.8
+
+Thu Apr 18 10:30:28 CEST 2013    5.1.107    Switched to MIT license. Added cache to speedup test detection. Removed undocumented Scm Hook

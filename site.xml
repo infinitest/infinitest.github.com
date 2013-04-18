@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<description url="http://infinitest.github.com">Infinitest Update Site</description>
-	<feature url="features/org.infinitest.eclipse.feature_5.1.106.jar" id="org.infinitest.eclipse.feature" version="5.1.106">
+	<feature url="features/org.infinitest.eclipse.feature_5.1.107.jar" id="org.infinitest.eclipse.feature" version="5.1.107">
 		<category name="Infinitest" />
 	</feature>
 	<category-def name="Infinitest" label="Infinitest for Eclipse" />

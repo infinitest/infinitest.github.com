@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
   version="2.0"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Infinitest for Eclipse Releases</title>
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.107 released - Switched to MIT license. Added cache to speedup test detection. Removed undocumented Scm Hook</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Thu, 18 Apr 2013 10:30:28 +0200</pubDate>
+      <dc:date>2013-04-18T10:30:28.701518+02:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.106 released - Bug fixes. Support TestNG 6.8</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Thu, 13 Dec 2012 18:01:19 +0100</pubDate>
-      <dc:date>2012-12-13T18:01:19.376177+01:00</dc:date>
+      <dc:date>2012-12-13T18:01:19+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.103 released - Fix Javassist packaging</title>
