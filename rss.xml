@@ -9,6 +9,12 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.110 released - Support class level Test annotation in TestNG. JUnit-4.11. Eclipse-Kepler.</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Wed, 03 Jul 2013 17:25:52 +0200</pubDate>
+      <dc:date>2013-07-03T17:25:52.628188+02:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.109 released - Improve caching</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Tue, 21 May 2013 04:54:13 +0200</pubDate>
