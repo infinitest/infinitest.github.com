@@ -61,7 +61,7 @@ You can check this file in source control to allow all developers to filter the 
 
 ## Setting JVM Options
 
-If you need to set custom JVM options (such as memory settings, system properties, java language assertions, etc...) when running tests, you can configure them by creating a simple text file in the working directory of your project named `infinitest.args` that contains one VM argument per line to be included whenever Infinitest runs tests. Just as with the filter file, this can be checked into source control, or generated as part of an automated build.
+If you need to set custom JVM options (such as memory settings, system properties, java language assertions, etc...) when running tests, you can configure them by creating a simple text file in the working directory of your project named `infinitest.args` that contains one VM argument per line to be included whenever Infinitest runs tests. By default, Infinitest sets a maximum heap size of 256mb. You can override that by setting e.g. ``-mx512m`` (for twice the heap space). Just as with the filter file, this can be checked into source control, or generated as part of an automated build.
 
 ## Pro Tips
 
