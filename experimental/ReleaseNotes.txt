@@ -63,3 +63,5 @@ Sat Jan  7 17:41:52 CET 2012    5.1.98    FIX wrong IDE being used in IntelliJ a
 Thu Jan 12 01:01:05 CET 2012    5.1.99    FIX NoClassDefFoundError for Guava's com.google.common.base.Strings
 
 Thu Nov 28 09:27:24 CET 2013    5.1.113    Experimental Build - Performances
+
+Thu Nov 28 13:53:38 CET 2013    5.1.114    Fix Log
