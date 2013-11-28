@@ -9,6 +9,12 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.113 released - Experimental Build - Performances</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Thu, 28 Nov 2013 09:27:24 +0100</pubDate>
+      <dc:date>2013-11-28T09:27:24.992047+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.99 released - FIX NoClassDefFoundError for Guava's com.google.common.base.Strings</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Thu, 12 Jan 2012 01:01:06 +0100</pubDate>
