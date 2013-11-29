@@ -65,3 +65,5 @@ Thu Jan 12 01:01:05 CET 2012    5.1.99    FIX NoClassDefFoundError for Guava's c
 Thu Nov 28 09:27:24 CET 2013    5.1.113    Experimental Build - Performances
 
 Thu Nov 28 13:53:38 CET 2013    5.1.114    Fix Log
+
+Fri Nov 29 10:48:27 CET 2013    5.1.115    Let Eclipse compute the delta

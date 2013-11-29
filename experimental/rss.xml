@@ -9,6 +9,12 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.115 released - Let Eclipse compute the delta</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Fri, 29 Nov 2013 10:48:28 +0100</pubDate>
+      <dc:date>2013-11-29T10:48:28.663051+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.114 released - Fix Log</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Thu, 28 Nov 2013 13:53:39 +0100</pubDate>
