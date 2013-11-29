@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Infinitest for Eclipse Releases</title>
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.116 released - Faster test discovery</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Fri, 29 Nov 2013 14:51:28 +0100</pubDate>
+      <dc:date>2013-11-29T14:51:28.535866+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.115 released - Let Eclipse compute the delta</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Fri, 29 Nov 2013 10:48:28 +0100</pubDate>
-      <dc:date>2013-11-29T10:48:28.663051+01:00</dc:date>
+      <dc:date>2013-11-29T10:48:28+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.114 released - Fix Log</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Thu, 28 Nov 2013 13:53:39 +0100</pubDate>
-      <dc:date>2013-11-28T13:53:39.07841+01:00</dc:date>
+      <dc:date>2013-11-28T13:53:39+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.113 released - Experimental Build - Performances</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Thu, 28 Nov 2013 09:27:24 +0100</pubDate>
-      <dc:date>2013-11-28T09:27:24.992047+01:00</dc:date>
+      <dc:date>2013-11-28T09:27:24+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.99 released - FIX NoClassDefFoundError for Guava's com.google.common.base.Strings</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Thu, 12 Jan 2012 01:01:06 +0100</pubDate>
-      <dc:date>2012-01-12T01:01:06.274608+01:00</dc:date>
+      <dc:date>2012-01-12T01:01:06+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.98 released - FIX wrong IDE being used in IntelliJ and not failing on exception without stacktrace.</title>
