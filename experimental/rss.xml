@@ -9,10 +9,16 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.118 released - Faster startup</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Thu, 05 Dec 2013 10:02:50 +0100</pubDate>
+      <dc:date>2013-12-05T10:02:50.122592+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.117 released - Fix small details</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Fri, 29 Nov 2013 16:29:12 +0100</pubDate>
-      <dc:date>2013-11-29T16:29:12.24242+01:00</dc:date>
+      <dc:date>2013-11-29T16:29:12+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.116 released - Faster test discovery</title>
