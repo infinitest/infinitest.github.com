@@ -1,26 +1,54 @@
+@back: rgb(84,76,78);
+
+html {
+	background-color: @back;
+}
+
 body {
-  color: white;
-  padding-top: 40px;
-  background: url('/assets/img/noise.png');
+	padding-top: 40px;
+	background: url('/assets/img/noise.png');
+	color: white;
 
-  code {
-    color: black;
-  }
+	code {
+		color: black;
+	}
+  
+	.container {
+		min-height: 900px;
+	}
+  
+	#logo {
+		margin-bottom: 60px;
 
-  #logo {
-    margin-bottom: 60px;
+		img {
+			width: 580px;
+			height: 424px;
+		}
 
-    img {
-      width: 580px;
-      height: 424px;
-    }
+		.lead {
+			text-align: justify;
+		}
 
-    .lead {
-      text-align: justify;
-    }
+		.first {
+			margin-top: 40px;
+		}
 
-    .first {
-      margin-top: 40px;
-    }
-  }
+	}
+  
+	footer {
+		background-color: lighten(@back, 20%);
+		border-top: 1px solid darken(@back, 10%);
+		height: 200px;
+
+		nav {
+			color: white;
+			margin: 20px;
+			padding-left: 20px;
+		
+			a {
+				display: block;
+				color: @back;
+			}
+		}
+	}
 }
