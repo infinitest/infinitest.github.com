@@ -9,10 +9,16 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.115 released - Fix eclipse update site</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Wed, 19 Aug 2015 21:06:19 +0100</pubDate>
+      <dc:date>2015-08-19T21:06:19.38288+01:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.114 released - Bug fixes</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Tue, 18 Aug 2015 11:48:09 +0100</pubDate>
-      <dc:date>2015-08-18T11:48:09.956006+01:00</dc:date>
+      <dc:date>2015-08-18T11:48:09+01:00</dc:date>
     </item>
     <item>
       <title>Infinitest for Eclipse 5.1.110 released - Support class level Test annotation in TestNG. JUnit-4.11. Eclipse-Kepler.</title>
