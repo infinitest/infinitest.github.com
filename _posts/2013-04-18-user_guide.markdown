@@ -66,7 +66,7 @@ If you need to set custom JVM options (such as memory settings, system propertie
 ## Pro Tips
 
 You can run all the tests in a project (and generally 'reset' things) in Infinitest-Eclipse by cleaning the project.  
-You can view the stack trace for a failure from the quick fix menu.
+You can view the stack trace for a failure from the quick fix menu
 
 By default, IntelliJ does not compile classes automatically like Eclipse. You can obtain the same behaviour by checking the box "Make project automatically" in "Settings > Compiler". This way, you tests will be executed automagically without having anything to do.
 
@@ -76,11 +76,11 @@ By default, IntelliJ does not compile classes automatically like Eclipse. You ca
 
 If you're running Eclipse, ensure that:
 
-You've resolved any compiler or other workspace errors.
-The "Continuously Test" option in the Infinitest preferences (under Window->Preferences) is checked.
-"Build Automatically" under the "Project" menu is checked.
-The test is not being filtered by an entry in the `infinitest.filters` file in the root directory of the project.
-If you're using a custom builder (like AspectJ) make sure you have the appropriate plugins installed.
+You've resolved any compiler or other workspace errors
+The "Continuously Test" option in the Infinitest preferences (under Window->Preferences) is checked
+"Build Automatically" under the "Project" menu is checked
+The test is not being filtered by an entry in the `infinitest.filters` file in the root directory of the project
+If you're using a custom builder (like AspectJ) make sure you have the appropriate plugins installed
 
 If you're using IntelliJ:
 
