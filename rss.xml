@@ -9,6 +9,12 @@
     <link>update.improvingworks.com/rss.xml</link>
     <description>News feed for new Infinitest releases</description>
     <item>
+      <title>Infinitest for Eclipse 5.1.116 released - Bug fixes</title>
+      <link>ReleaseNotes.txt</link>
+      <pubDate>Fri, 01 Jul 2016 08:47:49 +0200</pubDate>
+      <dc:date>2016-07-01T08:47:49+02:00</dc:date>
+    </item>
+    <item>
       <title>Infinitest for Eclipse 5.1.115 released - Fix eclipse update site</title>
       <link>ReleaseNotes.txt</link>
       <pubDate>Wed, 19 Aug 2015 21:06:19 +0100</pubDate>
