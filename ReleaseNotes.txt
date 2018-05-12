@@ -90,3 +90,5 @@ Tue Aug 18 11:48:09 WEST 2015    5.1.114    Bug fixes
 Wed Aug 19 21:06:18 WEST 2015    5.1.115    Fix eclipse update site
 
 Fri, Jul  1, 2016  8:47:47 AM    5.1.116    Bug Fixes.
+
+samedi 12 mai 2018, 23:22:05 (UTC+0200)    5.2.0    Junit 5 Support, Junit 4 Categories Support, Simplified syntax for infinitest.filters
