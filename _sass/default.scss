@@ -1,7 +1,7 @@
-@back: rgb(84,76,78);
+$back: rgb(84,76,78);
 
 html {
-	background-color: @back;
+	background-color: $back;
 }
 
 body {
@@ -36,8 +36,8 @@ body {
 	}
   
 	footer {
-		background-color: lighten(@back, 20%);
-		border-top: 1px solid darken(@back, 10%);
+		background-color: lighten($back, 20%);
+		border-top: 1px solid darken($back, 10%);
 		height: 300px;
 
 		nav {
