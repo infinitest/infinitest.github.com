@@ -1,3 +1,17 @@
 safe:        true
 highlihter:  rouge
-permalink:   /:categories/:title.html
+permalink:   /:categories/:path
+collections:
+  doc:
+    permalink: "/:collection/:path"
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "doc"
+    values:
+      layout: "documentation"
+
+plugins:
+  - jekyll-redirect-from

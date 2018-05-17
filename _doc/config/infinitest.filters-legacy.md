@@ -7,7 +7,7 @@ title: Legacy infinitest.filters Syntax
 
 ## Legacy infinitest.filters syntax 
 
-*Note*: the syntax described below is for Infinitest versions before 5.2 (see [user guide](user_guide.html) for current syntax).
+*Note*: the syntax described below is for Infinitest versions before 5.2 (see [new syntax]({{ site.baseurl }}{% link _doc/config/infinitest.filters.md %}) for current syntax).
 
 ### Filtering with Regular Expressions
 
