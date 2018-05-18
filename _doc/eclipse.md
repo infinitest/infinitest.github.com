@@ -4,6 +4,13 @@ title: Infinitest for Eclipse Documentation
 
 # Infinitest for Eclipse
 
+This is the documentation for Infinitest for Eclipse.
+
+Looking for the Infinitest for IntelliJ? [Go here]({{ site.baseurl }}{% link _doc/intellij.md %}).
+
+* TOC
+{:toc}
+
 ## Installation
 
 The easiest option is to install Infinitest from [Eclipse Marketplace](https://marketplace.eclipse.org/content/infinitest).
@@ -43,11 +50,6 @@ JVM option can be configured by defining a infinitest.args file at the root of y
 
 See [infinitest.args syntax]({{ site.baseurl }}{% link _doc/config/infinitest.args.md %}).
 
-## External Resources
-
-[Introductory video by Brandan Jones](https://www.youtube.com/watch?v=bltBrpjdKIc)
-*Note*: This video uses the legacy syntax for infinitest.filters
-
 ## Common Problems
 
 ### I can't access the update site!
@@ -61,4 +63,10 @@ The "Continuously Test" option in the Infinitest preferences (under Window->Pref
 "Build Automatically" under the "Project" menu is checked.
 The test is not being filtered by an entry in the `infinitest.filters` file in the root directory of the project.
 If you're using a custom builder (like AspectJ) make sure you have the appropriate plugins installed.
+
+
+## External Resources
+
+[Introductory video by Brandan Jones](https://www.youtube.com/watch?v=bltBrpjdKIc)
+*Note*: This video uses the legacy syntax for infinitest.filters
 

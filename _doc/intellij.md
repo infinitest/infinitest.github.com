@@ -1,8 +1,15 @@
 ---
 title: Infinitest for IntelliJ Documentation
 ---
-
 # Infinitest for IntelliJ
+
+
+This is the documentation for Infinitest for Intellij.
+
+Looking for the Infinitest for Eclipse? [Go here]({{ site.baseurl }}{% link _doc/eclipse.md %}).
+
+* TOC
+{:toc}
 
 ## Installation
 
@@ -62,11 +69,13 @@ JVM option can be configured by defining a infinitest.args file.
 
 See [infinitest.args syntax]({{ site.baseurl }}{% link _doc/config/infinitest.args.md %}).
 
+## Common Problems
+
+### Infinitest isn't running my tests
+
+You have to compile the file after you change it. By default, IntelliJ does not compile classes automatically like Eclipse. Also, check the `infinitest.filters` file to make sure your tests are not ignored.
 
 ## External Resources
 
 [Introductory article by Mkyoing](https://www.mkyong.com/intellij/intellij-infinitest-continuous-testing/)
 
-### Infinitest isn't running my tests
-
-You have to compile the file after you change it. By default, IntelliJ does not compile classes automatically like Eclipse. Also, check the `infinitest.filters` file to make sure your tests are not ignored.
