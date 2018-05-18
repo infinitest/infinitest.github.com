@@ -2,7 +2,7 @@
 title: Infinitest for Eclipse Documentation
 ---
 
-# Infinitest for Eclipse Documentation
+# Infinitest for Eclipse
 
 ## Installation
 
@@ -33,6 +33,9 @@ By default Infinitest executes all Junit and TestNG tests it finds in your proje
 You can configure which test it should configure by adding an `infinitest.filters` file at the root of your eclipse project. 
 
 See [Filtering Syntax]({{ site.baseurl }}{% link _doc/config/infinitest.filters.md %}) for more info on how to filter tests.
+
+*Note:*
+After changing the content of infinitest.filters you need to force a rebuild of the project using "Project > Clean" Eclipse action.
 
 ### Configuring JVM options
 
