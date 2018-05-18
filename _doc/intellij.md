@@ -22,7 +22,7 @@ Install the Infinitest plugin from the plugin manager:
 * Restart IntelliJ
 
 *Note:*
-You can aleternatively download the jar from  (Jetbrains Plugin Repository)[https://plugins.jetbrains.com/plugin/3146-infinitest] and then install it from disk.
+You can alternatively download the jar from [Jetbrains Plugin Repository](https://plugins.jetbrains.com/plugin/3146-infinitest) and then install it from disk.
 
 ## Enabling Infinitest
 
@@ -46,9 +46,15 @@ Infinitest detect changes on the .class files but by default, IntelliJ does not 
 So Infinitest will only detect changes and run test when building project (Ctrl+F9). 
 Alternatively you can configure IntelliJ to "Make project automatically" on save in `Settings->Compiler`. This way, you tests will be executed on save.
 
+## Viewing test results
+
 The test failures are displayed:
 * As Markers in the test files
 * In the Infinitest Tool Window for the each module.
+
+Additionally the Tool Window allows to:
+* stop/start Infinitest.
+* View the Infinitest logs.
 
 ## Configuring Infinitest
 
@@ -73,7 +79,11 @@ See [infinitest.args syntax]({{ site.baseurl }}{% link _doc/config/infinitest.ar
 
 ### Infinitest isn't running my tests
 
-You have to compile the file after you change it. By default, IntelliJ does not compile classes automatically like Eclipse. Also, check the `infinitest.filters` file to make sure your tests are not ignored.
+You have to compile the file after you change it. By default, IntelliJ does not compile classes automatically like Eclipse. 
+
+Also, check the `infinitest.filters` file to make sure your tests are not ignored.
+
+
 
 ## External Resources
 
