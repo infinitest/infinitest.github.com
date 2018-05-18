@@ -44,7 +44,7 @@ Every time you change some code and IntelliJ recompiles it infinitest computes w
 *Note*:
 Infinitest detect changes on the .class files but by default, IntelliJ does not compile classes when saving code.
 So Infinitest will only detect changes and run test when building project (Ctrl+F9). 
-Alternatively you can configure IntelliJ to "Make project automatically" on save in `Settings->Compiler`. This way, you tests will be executed on save.
+Alternatively you can configure IntelliJ to "Make project automatically" on save in "Settings->Compiler". This way, you tests will be executed on save.
 
 ## Viewing test results
 
@@ -62,12 +62,12 @@ Additionally the Tool Window allows to:
 
 By default Infinitest executes all Junit and TestNG tests.
 
-You can configure which tests it should execute by adding an `infinitest.filters` file in the .idea/modules directory.
+You can configure which tests it should execute by adding an "infinitest.filters" file in the .idea/modules directory.
 
 See [Filtering Syntax]({{ site.baseurl }}{% link _doc/config/infinitest.filters.md %}) for more info on how to filter tests.
 
 *Note*:
-When changing infinitest.filters you need to do "Build>Rebuild Project" to force infinitest to reinitialize.
+When changing "infinitest.filters" you need to do "Build>Rebuild Project" to force infinitest to reinitialize.
 
 ### Configuring JVM options
 
@@ -81,7 +81,7 @@ See [infinitest.args syntax]({{ site.baseurl }}{% link _doc/config/infinitest.ar
 
 You have to compile the file after you change it. By default, IntelliJ does not compile classes automatically like Eclipse. 
 
-Also, check the `infinitest.filters` file to make sure your tests are not ignored.
+Also, check the "infinitest.filters" file to make sure your tests are not ignored.
 
 
 
