@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: Infinitest for IntelliJ Documentation
 ---
 # Infinitest for IntelliJ

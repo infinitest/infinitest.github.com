@@ -1,6 +1,6 @@
 ---
 category: doc
-layout: documentation
+layout: doc
 title: Legacy infinitest.filters Syntax
 ---
 

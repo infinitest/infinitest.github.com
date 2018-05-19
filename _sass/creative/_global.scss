@@ -38,16 +38,6 @@ h6 {
 
 .bg-primary {
   background-color: $primary !important;
-  color: $primary-contrast;
-  a {
-    color: $primary-contrast;
-  }
-  i {
-    color: $primary-contrast;
-  }
-  .text-faded {
-    color: fade-out($primary-contrast, .3);
-  }
 }
 
 .bg-secondary {

@@ -8,23 +8,23 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Creative - Start Bootstrap Theme</title>
+  <title>Infinitest</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
     rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
     rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -41,13 +41,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#install">Install</a>
+            <a class="nav-link js-scroll-trigger" href="#intellij">For IntelliJ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#documentation">Documentation</a>
+            <a class="nav-link js-scroll-trigger" href="#eclipse">For Eclipse</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#community">Community</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contribute">Contribute</a>
@@ -63,56 +63,145 @@
   <header class="masthead text-center text-white d-flex">
     <div class="container my-auto">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h1 class="text-uppercase">
-            <strong>You like TDD? you'll love Infinitest.</strong>
+        <div class="col-lg-8 mx-auto">
+          <img class="masthead-logo" src=" /assets/img/logo.png " alt="Infinitest ">
+        </div>
+        <div class="col-lg-10 mx-auto ">
+          <h1 class="text-uppercase ">
+            <strong>The Continuous Test Runner for the JVM</strong>
           </h1>
           <hr>
         </div>
-        <div class="col-lg-8 mx-auto">
-          <p class="mb-5">
-            Infinitest is The Continuous Test Runner for the JVM.
-            <br> Each time you change the code Infinitest runs the relevant tests!!.
+        <div class="col-lg-8 mx-auto ">
+          <p class="mb-5 ">
+            You like TDD? you'll love Infinitest.
+            <br> Each time you change the code Infinitest runs the relevant tests for you!!
           </p>
-          <img src="/assets/img/logo.png" alt="Infinitest">
+
         </div>
       </div>
     </div>
   </header>
 
-  <section id="install">
+  <section id="intellij">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Install</h2>
-          <hr class="my-4">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading ">Infinitest for IntelliJ</h2>
+          <hr class="my-4 ">
         </div>
       </div>
     </div>
     <div class="container">
+      <div class="row ">
+        <div class="col-lg-8 infinitest-demo">
+          <img src="/assets/img/intellij/screenshots/animated-usage.png " style="width:100%;">
+        </div>
+        <div class="col-lg-4 text-center infinitest-get-started">
+          <div class="mt-5 mx-auto ">
+            <img class="ide-logo " src="/assets/img/intellij/logo.png ">
+          </div>
+          <div class="mt-5 mx-auto ">
+            <a class="btn btn-light btn-xl btn-primary" href="/doc/intellij#get-started">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="eclipse" class="bg-primary">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <img class="ide-logo" src="/assets/img/eclipse-logo.png">
-            <h3 class="mb-3">Infinitest for Eclipse</h3>
-            <p class="text-muted mb-0">
-              Available on
-              <a href="https://marketplace.eclipse.org/content/infinitest">Eclipse Market Place</a>
-              <br>
-              <a class="text-muted" href="/doc/eclipse#installation">Click here for more install options.</a>
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading text-white">Infinitest for Eclipse</h2>
+          <hr class="my-4 light">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-8 infinitest-demo">
+          <img src="/assets/img/eclipse/screenshots/animated-usage.gif " style="width:100%;">
+        </div>
+        <div class="col-lg-4 text-center infinitest-get-started">
+          <div class="mt-5 mx-auto ">
+            <img class="ide-logo " src="/assets/img/eclipse/logo.png ">
+          </div>
+          <div class="mt-5 mx-auto ">
+            <a class="btn btn-light btn-xl" href="/doc/eclipse#get-started">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class=" " id="community">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading ">Community</h2>
+          <hr class="my-4 ">
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-4 col-md-6 text-center ">
+          <div class="service-box mt-5 mx-auto ">
+            <i class="fa fa-4x fa-stack-overflow text-primary mb-3 sr-icons "></i>
+            <h3 class="mb-3 ">Stack Overflow</h3>
+            <p class="text-muted mb-0">Ask your questions on
+              <a href="https://stackoverflow.com/questions/tagged/infinitest">Stack Overflow</a> using "Infinitest" tag.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center ">
+          <div class="service-box mt-5 mx-auto ">
+            <i class="fa fa-4x fa-envelope text-primary mb-3 sr-icons "></i>
+            <h3 class="mb-3 ">User mailing list</h3>
+            <p class="text-muted mb-0 ">Discuss Infinitest on the
+              <a href="https://groups.google.com/forum/#!forum/infinitest-users">infinitest-users google group</a>
             </p>
           </div>
         </div>
-        <div class="col-lg-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <img class="ide-logo" src="/assets/img/jetbrains-logo.png">
-            <h3 class="mb-3">Infinitest for IntelliJ</h3>
-            <p class="text-muted mb-0">
+        <div class="col-lg-4 col-md-12 text-center ">
+          <div class="service-box mt-5 mx-auto ">
+            <i class="fa fa-4x fa-twitter text-primary mb-3 sr-icons "></i>
+            <h3 class="mb-3 ">Twitter</h3>
+            <p class="text-muted mb-0 ">Follow <a href="https://twitter.com/infinitest">Infinitest on
+              Twitter</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-              Available on
-              <a href="https://plugins.jetbrains.com/plugin/3146-infinitest">JetBrains Plugins Repository</a>
-              <br>
-              <a class="text-muted" href="/doc/intellij#installation">Click here for more install options.</a>
+  <section class="bg-dark" id="contribute">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading text-white">Contribute</h2>
+          <hr class="my-4 light">
+        </div>
+      </div>
+    </div>
+    <div class="container text-white">
+      <div class="row ">
+        <div class="col-lg-6 col-md-6 text-center ">
+          <div class="service-box mt-5 mx-auto ">
+            <i class="fa fa-4x fa-github text-white mb-3 sr-icons "></i>
+            <h3 class="mb-3 ">Github</h3>
+            <p class=" mb-0">Report issues and fork 
+              <a href="https://github.com/infinitest/infinitest/">Infinitest on Github</a>.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center ">
+          <div class="service-box mt-5 mx-auto ">
+            <i class="fa fa-4x fa-paper-plane text-white mb-3 sr-icons "></i>
+            <h3 class="mb-3 ">Dev mailing list</h3>
+            <p class=" mb-0 ">Talk about implementation on the
+              <a href="https://groups.google.com/forum/#!forum/infinitest-dev" class="light">infinitest-dev google group</a>
             </p>
           </div>
         </div>
@@ -121,224 +210,39 @@
     </div>
   </section>
 
-
-  <section class="bg-primary text-white" id="documentation">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Documentation</h2>
-          <hr class="my-4">
+  <section class="bg-primary" id="sponsors">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading text-white">Sponsors</h2>
+          <hr class="my-4 light">
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 text-center">
-          <a href="/doc/eclipse">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-book mb-3 sr-icons"></i>
-              <h3 class="mb-3">Infinitest for Eclipse</h3>
-              <p class="text-faded mb-0">Read Infinitest for Eclipse user guide.</p>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-6 text-center">
-          <a href="/doc/intellij">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-book mb-3 sr-icons"></i>
-              <h3 class="mb-3">Infinitest for IntelliJ</h3>
-              <p class="text-faded mb-0">Infinitest for IntelliJ user guide.</p>
-            </div>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Keep in touch</h2>
-          <hr class="my-4">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Stack Overflow</h3>
-            <p class="text-muted mb-0">Ask for help on stack overflow.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">User mailing list</h3>
-            <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Twitter</h3>
-            <p class="text-muted mb-0">Follow us on twitter</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Made with Love</h3>
-            <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+    <div class="container text-white">
+      <div class="row ">
+        <div class="col-lg-12 col-md-12 text-center ">
+          <div class="service-box mt-5 mx-auto ">
+            <img class="sponsor_logo" src="/assets/img/sponsors/yourkit_logo.png"></img>
+            <h3 class="mb-3 "></h3>
+            <p class=" mb-0">Yourkit is kindly supporting Infinitest open source project with its full-featured Java Profiler</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters popup-gallery">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/creative/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="assets/img/creative/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/creative/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="assets/img/creative/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/creative/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="assets/img/creative/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/creative/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="assets/img/creative/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/creative/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="assets/img/creative/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/creative/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="assets/img/creative/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-          <hr class="my-4">
-          <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back
-            to you as soon as possible!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-          <p>123-456-6789</p>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-          <p>
-            <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/jquery/jquery.min.js "></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="/vendor/jquery-easing/jquery.easing.min.js "></script>
+  <script src="/vendor/scrollreveal/scrollreveal.min.js "></script>
 
   <!-- Custom scripts for this template -->
-  <script src="assets/js/creative.min.js"></script>
+  <script src="/assets/js/creative.min.js "></script>
 
 </body>
 

@@ -1,11 +1,14 @@
 ---
-layout: documentation
+layout: doc
 title: infinitest.filters
 ---
 
 The *infinitest.filters* file allows to configure the tests to execute as well as the TestNG listeners.
 
 *Note*: the syntax described below is for Infinitest 5.2+ (see [legacy syntax]({{ site.baseurl }}{% link _doc/config/infinitest.filters-legacy.md %})) for older versions).
+
+* TOC
+{:toc}
 
 
 ## Filtering Tests
