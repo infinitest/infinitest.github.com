@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: doc
 title: infinitest.args
 ---
 ## infinitest.args

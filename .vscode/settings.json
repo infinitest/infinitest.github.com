@@ -1,6 +1,6 @@
 {
     "files.associations": {
         "*.html": "liquid",
-        "newstyle.scss": "liquid",
+        "style.scss": "liquid",
     }
 }
