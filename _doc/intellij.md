@@ -47,7 +47,7 @@ Infinitest detect changes on the .class files but by default, IntelliJ does not 
 So Infinitest will only detect changes and run test when building project (Ctrl+F9). 
 Alternatively you can configure IntelliJ to "Make project automatically" on save in "Settings->Compiler". This way, you tests will be executed on save.
 
-## Viewing test results
+## Viewing test results
 
 The test failures are displayed:
 * As Markers in the test files
