@@ -29,3 +29,10 @@
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.1) !important;
   }
 }
+
+.alert-info {
+  background-color: rgba($primary, 0.1);
+  border-color: $primary;
+  color: $black;
+  @include sans-serif-font;
+}

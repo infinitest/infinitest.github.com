@@ -1,5 +1,7 @@
-@import "creative/creative.scss";
-.ide-logo {
-    width: 96px;
-    height: 96px;
-}
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "main-page/navbar.scss";
+@import "main-page/masthead.scss";
+@import "main-page/services.scss";
+@import "bootstrap-overrides.scss";
