@@ -1,0 +1,18 @@
+.btn-improve {
+    background-color: $primary;
+    color: $primary-contrast;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $primary-contrast;
+        background-color: darken($primary, 5%) !important;
+    }
+    &:active,
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba($primary, 0.1) !important;
+    }
+    font-size: 10px;
+    @media (min-width: 768px) {
+        margin-left: calc(100% - 150px);
+    }
+}
