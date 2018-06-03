@@ -16,7 +16,7 @@ Install the Infinitest plugin from the plugin manager:
 * Go to "File > Settings"
 * Select Plugins node in the settings tree
 * Click "Browse repositories..." button 
-* In the "Browse Repositories" dialog Type "Infintiest" 
+* In the "Browse Repositories" dialog Type "Infinitest" 
 * Click "install"
 * Restart IntelliJ
 
