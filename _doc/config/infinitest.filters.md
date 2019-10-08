@@ -48,8 +48,8 @@ Note that you can add several inclusion or exclusion patterns on different lines
 
 If you're using Junit 5 you can tell Infinitest to include or exclude [Tags](https://junit.org/junit5/docs/current/user-guide/#writing-tests-tagging-and-filtering).
 
-You can specify included tags by adding a new line in `ìnfinitest.filters` with the form `includeGroups <tagName>[, <tagName2>...]`.
-Similarly you can specify execluded tags by adding a new line in `ìnfinitest.filters` with the form `excludeGroups <tagName>[, <tagName2>...]`.
+You can specify included tags by adding a new line in `infinitest.filters` with the form `includeGroups <tagName>[, <tagName2>...]`.
+Similarly you can specify execluded tags by adding a new line in `infinitest.filters` with the form `excludeGroups <tagName>[, <tagName2>...]`.
 
 Examples:
 
@@ -64,8 +64,8 @@ Examples:
 
 If you're using Junit 4 you can tell Infinitest to include or exclude [Categories](https://github.com/junit-team/junit4/wiki/categories).
 
-You can specify included categories by adding a new line in `ìnfinitest.filters` with the form `includeGroups <CategoryClass1>[, <CategoryClass3>...]`.
-Similarly you can specify excluded categories by adding a new line in `ìnfinitest.filters` with the form `excludeGroups <CategoryClass1>[, <CategoryClass2>...]`.
+You can specify included categories by adding a new line in `infinitest.filters` with the form `includeGroups <CategoryClass1>[, <CategoryClass3>...]`.
+Similarly you can specify excluded categories by adding a new line in `infinitest.filters` with the form `excludeGroups <CategoryClass1>[, <CategoryClass2>...]`.
 
 Examples:
 
