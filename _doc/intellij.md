@@ -25,6 +25,10 @@ You can alternatively download the jar from [Jetbrains Plugin Repository](https:
 
 ## Enabling Infinitest
 
+{% include note-start.html%}
+Since version 5.4 Infinitest is enabled automatically, there's no facet anymore.
+{% include note-end.html%}
+
 To enable the Infinitest facet for your project you need to add the Infinitest facet to your project modules.
 
 To do so:
@@ -38,11 +42,11 @@ To do so:
 
 Infinitest inspects your classes to find tests.
 
-Every time you change some code and IntelliJ recompiles it infinitest computes which tests need to be executed and rerun them. 
+Every time you change some code and IntelliJ recompiles it infinitest computes which tests need to be executed and runs them. 
 
 
 {% include note-start.html%}
-Infinitest detect changes on the .class files but by default, IntelliJ does not compile classes when saving code.
+Infinitest detects changes on the .class files but by default, IntelliJ does not compile classes when saving code.
 So Infinitest will only detect changes and run test when building project (Ctrl+F9). 
 <br><br>
 Alternatively you can configure IntelliJ to "Make project automatically" on save in "Settings->Compiler". This way, your tests will be executed on save.
@@ -52,11 +56,13 @@ Alternatively you can configure IntelliJ to "Make project automatically" on save
 
 The test failures are displayed:
 * As Markers in the test files
-* In the Infinitest Tool Window for the each module.
+* In the Infinitest Tool Window for each module.
 
 Additionally the Tool Window allows to:
 * Stop/start Infinitest.
 * View the Infinitest logs.
+* View the Console output of the tests.
+* Disable tests of a module by right-clicking it
 
 # Configuring Infinitest
 
