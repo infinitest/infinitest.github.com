@@ -19,6 +19,13 @@ If you have tests in your project that run too slowly or that can't be run by In
  
 To do so create a file named *infinitest.filters* in your projects.
 
+## Filter file location
+
+The filter file must be at the root of the project.
+
+For the IntelliJ plugin it is possible to override the project-level filters by adding a filter file at the root of a module.
+In that case the project-level filter file is ignored for the corresponding module.
+
 
 ### Filtering by test class name
 
@@ -49,7 +56,7 @@ Note that you can add several inclusion or exclusion patterns on different lines
 If you're using Junit 5 you can tell Infinitest to include or exclude [Tags](https://junit.org/junit5/docs/current/user-guide/#writing-tests-tagging-and-filtering).
 
 You can specify included tags by adding a new line in `infinitest.filters` with the form `includeGroups <tagName>[, <tagName2>...]`.
-Similarly you can specify execluded tags by adding a new line in `infinitest.filters` with the form `excludeGroups <tagName>[, <tagName2>...]`.
+Similarly you can specify excluded tags by adding a new line in `infinitest.filters` with the form `excludeGroups <tagName>[, <tagName2>...]`.
 
 Examples:
 
