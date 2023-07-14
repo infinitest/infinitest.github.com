@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<description url="http://infinitest.github.com">Infinitest Update Site</description>
+	<feature url="features/org.infinitest.eclipse.feature_5.4.2.jar" id="org.infinitest.eclipse.feature" version="5.4.2">
+		<category name="Infinitest" />
+	</feature>
 	<feature url="features/org.infinitest.eclipse.feature_5.4.1.jar" id="org.infinitest.eclipse.feature" version="5.4.1">
 		<category name="Infinitest" />
 	</feature>
